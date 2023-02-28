@@ -1,0 +1,32 @@
+.taskBox {
+    width: 90%;
+    margin: auto;
+    max-height: 50%;
+    padding: 5px;
+    box-shadow: 6px 6px 4px rgb(124, 155, 155) inset;
+    overflow-y: scroll;
+  }
+  
+  .task {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    align-items: center;
+    background-color: beige;
+    flex-wrap: wrap;
+    /* box-shadow: 6px 6px 4px rgb(124, 155, 155); */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  }
+  
+  .task .icons {
+    display: flex;
+    gap: 1.3rem;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
